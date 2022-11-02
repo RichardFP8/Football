@@ -10,13 +10,20 @@
     <body>
         <main class="container">
             <h1 class="display-1 text-center mt-2 mb-4">Football Teams</h1>
-            <form class="w-50 mx-auto">
+            <form id="theForm" class="w-50 mx-auto">
                 <h2 class="display-3">Choose a team</h2>
                 <select id="teamsList" name="footballTeams">
-                    <option disabled>Select an option</option>
                 </select> 
-                <input id="forTeamInfo" type="button" class="btn btn-light btn-outline-dark d-block mt-3" value="Find out more" />
+                <button id="forTeamInfo" type="submit" class="btn btn-light btn-outline-dark d-block my-3" >Find out more</button>
+                <!-- <input id="forTeamInfo" type="button" class="btn btn-light btn-outline-dark d-block mt-3" value="Find out more" > -->
+
+                <img id="houstonTexans" src="./images/houstonTexans.png" alt="Houston Texans" height="100px" width="100px" /> 
+                <img id="dallasCowboys" src="./images/dallasCowboys.png" alt="Dallas Cowboys" height="100px" width="100px"/> 
+                <img id="denverBroncos" src="./images/denverBroncos.png" alt="Denver Broncos" height="100px" width="100px"/> 
+                <img id="kcChiefs" src="./images/kcChiefs.png" alt="Kansas City Chiefs" height="100px" width="100px"/> 
+
                 <p id="displayInfo" class="display-6 mt-4"></p>
+                <p id="hello"></p>
             </form>
         </main>
 
